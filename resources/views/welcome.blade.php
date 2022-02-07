@@ -19,9 +19,12 @@
 
         <style>
             body {
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Space Grotesk', sans-serif;
             }
         </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+            </style>
     </head>
     <body class="antialiased" data-scroll-container>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -131,8 +134,8 @@
                 </div>
             </div>
         </div>
-        <section style="height: 100vh; background-color:red;">
-
+        <section style="height: 100vh; background-color:white;">
+            <h1 style="font-size: 8em; color:blue;">TOOLS TO WIN</h1>
         </section>
         <script src="{{ asset('js/locomotive-scroll.min.js') }}"></script>
         <script>
@@ -141,6 +144,18 @@
             smooth: true,
             multiplier: .6
         });
+        </script>
+        <script src="darkmode.js"></script>
+        <script>
+          var options = {
+            light: "light.css",
+            dark: "dark.css",
+            startAt: "23:00",
+            endAt: "06:00",
+            checkSystemScheme: true,
+            saveOnToggle: true
+          };
+          var DarkMode = new DarkMode(options);
         </script>
     </body>
 </html>

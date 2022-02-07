@@ -4,6 +4,7 @@
 <div class="overlay"></div>
 <div class="login-container">
 
+  <a href="/">
   <div class="cartoon-container">
     <svg class="mySVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
       <defs>
@@ -121,6 +122,7 @@
       </g>
     </svg>
   </div>
+</a>
 
   @if (session('status'))
             <div class="mb-4 font-medium text-sm text-green-600">
