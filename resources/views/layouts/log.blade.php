@@ -13,6 +13,14 @@
         background-position: 50% 50%
       }
   </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+    </style>
+<style>
+    body {
+        font-family: 'Space Grotesk', sans-serif;
+    }
+</style>
 </head>
 
 <body>
